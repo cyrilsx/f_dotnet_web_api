@@ -1,14 +1,27 @@
-﻿open Suave
+﻿open System
+open Suave
 open Suave.Http
 open Suave.Http.Applicatives
 open Suave.Http.Successful
 open Suave.Web
+open Newtonsoft.Json
+
+type Movie = {
+    Name : string
+    Year: int
+}
+
+let movies = Map.empty
+                    .Add(1, { Name = "Bad Xavier"; Year = 1995 })
+                    .Add(2, { Name = "Bad Xavier 2"; Year = 2003 })
+
+
 
 let app =
   choose
     [ GET >>= choose
-        [ url "/hello" >>= OK "Hello GET"
-          url "/goodbye" >>= OK "Good bye GET" ]
+        [ pathScan "/movie/%d" (fun(a) -> OK(JsonConvert.SerializeObject(movies.TryFind(a))))
+          url "/movies" >>= OK(JsonConvert.SerializeObject(movies))]
       POST >>= choose
         [ url "/hello" >>= OK "Hello POST"
           url "/goodbye" >>= OK "Good bye POST" ] ]
