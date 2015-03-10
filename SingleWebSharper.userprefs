@@ -1,0 +1,16 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="/usr/bin/chromium" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SingleWebSharper/Client.fs">
+    <Files>
+      <File FileName="SingleWebSharper/Client.fs" Line="9" Column="9" />
+      <File FileName="SingleWebSharper/Web.config" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Main.html" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Main.fs" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Remoting.fs" Line="9" Column="9" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

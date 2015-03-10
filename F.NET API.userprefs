@@ -1,0 +1,17 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Suave/Program.fs">
+    <Files>
+      <File FileName="SingleWebSharper/Client.fs" Line="16" Column="16" />
+      <File FileName="SingleWebSharper/Web.config" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Main.html" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Main.fs" Line="1" Column="1" />
+      <File FileName="SingleWebSharper/Remoting.fs" Line="1" Column="1" />
+      <File FileName="Suave/Program.fs" Line="18" Column="18" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>
